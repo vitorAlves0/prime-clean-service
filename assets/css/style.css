@@ -267,6 +267,7 @@ i {
 
 /* Sobre */
 
+
 .about {
     width: 100%;
     margin: 50px 0;
@@ -345,7 +346,9 @@ i {
     color: var(--black);
 }
 
+
 /* Resultados */
+
 
 .results {
     width: 100%;
@@ -443,7 +446,8 @@ i {
 
 .questions {
     width: 100%;
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .questions .questions_container {
@@ -474,3 +478,97 @@ i {
 
 }
 
+
+/* Depoimentos */
+
+
+.comments {
+    width: 100%;
+    background-color: var(--gray2);
+    padding: 60px 0;
+}
+
+.comments .comments_container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.comments .comments_container .comments_title h1 {
+    font-size: 3rem;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+
+.comments .comments_container .comments_photo img {
+    width: 80%;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 30px;
+
+}
+
+/* Formulário Mapa */
+
+
+.form {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.form .form_container {
+    width: 80%;
+    margin: auto;
+}
+
+.form .form_container .form_title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 60px;
+}
+
+.form .form_container .form_map {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.form_body {
+    width: 45%;
+    background-color: var(--gray2);
+    margin: 0 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 15px;
+}
+
+.form_body form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.form_body form .form1 {
+    padding: 15px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 1rem
+}
+
+#btn_form {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1.3rem;
+}
+
+
+.map img {
+    width: 80%;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 15px;
+
+}
