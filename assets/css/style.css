@@ -16,7 +16,7 @@
     --blue: #0F74BD;
 }
 
-/* Navbar */
+/* Barra de Navegação */
 
 section {
     width: 100%;
@@ -57,7 +57,7 @@ section {
     border-radius: 20px;
 }
 
- /* Showcase */
+ /* Pagina Inicial */
 
 .showcase_container {
     background-image: url('../img/BACKGROUND\ 01.png');
@@ -350,6 +350,7 @@ i {
 .results {
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .results .results_container {
@@ -376,4 +377,100 @@ i {
     box-shadow: 1px 1px 5px #888;
 }
 
+
+/* Ambient */
+
+
+.ambient {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.ambient .ambient_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ambient .ambient_container .text_ambient {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.ambient .ambient_container .text_ambient h1 {
+    font-size: 3rem;
+    color: var(--black);
+    padding: 15px;
+}
+
+.ambient .ambient_container .text_ambient .txt1 {
+    background-color: var(--blue);
+    padding: 0 10px;
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.ambient .ambient_container .text_ambient .txt2 {
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+
+.ambient .ambient_container .photo_ambient {
+    width: 50%;
+}
+
+.ambient .ambient_container .photo_ambient .photo_up {
+    display: flex;
+}
+
+.ambient .ambient_container .photo_ambient .photo_up img {
+    width: 50%;
+    padding: 15px;
+}
+
+.ambient .ambient_container .photo_ambient .photo_down img {
+    width: 100%;
+    padding: 15px;
+}
+
+
+/* Dúvidas */
+
+
+.questions {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.questions .questions_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions .questions_container .questions_title {
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+
+.questions .questions_container .questions_infor {
+    width: 100%;
+}
+
+.questions .questions_container .questions_infor .questions_text p {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--gray2);
+    margin: 20px;
+
+}
 
