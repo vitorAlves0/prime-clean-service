@@ -61,7 +61,7 @@ section {
  /* Pagina Inicial */
 
 .showcase_container {
-    background-image: url('../img/BACKGROUND\ 01.png');
+    background-image: url('../assets/img/BACKGROUND01.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -633,5 +633,5 @@ i {
     padding-bottom: 50px;
     width: 100%;
     text-align: center;
-    color: var(--gray3)
+    color: var(--gray3);
 }
