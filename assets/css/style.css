@@ -12,6 +12,7 @@
     --black: #333;
     --gray: #f5f5f5;
     --gray2: #e6e6e6;
+    --gray3: #b3b3b3;
     --green: #80CE49;
     --blue: #0F74BD;
 }
@@ -571,4 +572,66 @@ i {
     box-shadow: 1px 1px 5px #888;
     border-radius: 15px;
 
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.footer .footer_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer .footer_container .footer_contato h1 {
+    font-size: 2rem;
+    color: var(--gray3);
+    padding: 15px 0;
+}
+
+.footer .footer_container .footer_contato p {
+    color: var(--gray3);
+    padding: 10px 0;
+}
+
+.footer .footer_container .footer_empresa h1 {
+    font-size: 2rem;
+    color: var(--gray3);
+    padding: 15px 0;
+}
+
+.footer .footer_container .footer_empresa p {
+    color: var(--gray3);
+    padding: 10px 0;
+}
+
+.footer .footer_container .footer_logos {
+    padding: 30px 0;
+}
+
+.footer .footer_container .footer_logos a {
+    color: var(--gray3);
+    font-size: 2rem;
+    padding: 0 8px;
+}
+
+.footer .footer_container .footer_logos .prime {
+    padding: 15px 0;
+}
+
+.footer .footer_container .footer_logos .upag {
+    padding: 10px 0;
+}
+
+.footer .copy {
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    color: var(--gray3)
 }
