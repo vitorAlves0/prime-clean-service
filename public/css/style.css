@@ -37,7 +37,7 @@ section {
 }
 
 .navbar .logo img {
-    width: 10rem;
+    width: 13rem;
 }
 
 .navbar .menu ul {
@@ -48,7 +48,7 @@ section {
 .navbar .menu ul a {
     display: flex;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: var(--white);
     padding: 8px 20px;
 }
@@ -75,13 +75,12 @@ section {
 .showcase_container .text_showcase {
     width: 80%;
     margin: auto;
-    margin-top: 210px;
 }
 
 .showcase_container .text_showcase h1 {
-    font-size: 4.4rem;
+    font-size: 7rem;
     color: var(--green);
-    line-height: 70px;
+    line-height: 100px;
     margin-bottom: 25px;
 }
 
@@ -91,7 +90,7 @@ section {
 
 .showcase_container .text_showcase p {
     color: var(--white);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 40px;
 }
 .btn {
@@ -101,7 +100,7 @@ section {
     border-radius: 30px;
     color: var(--white);
     text-decoration: none;
-    font-size: 1.4rem
+    font-size: 2rem
 }
 
 .text_showcase i {
@@ -184,7 +183,7 @@ section {
 }
 
 .services_body .services_box {
-    width: 30%;
+    width: 320px;
     height: 450px;
     background-color: var(--gray);
     box-shadow: 1px 1px 5px #888;
@@ -193,7 +192,7 @@ section {
 }
 
 .services_box .services_photo img {
-    width: 90%;
+    width: 300px;
     margin-top: 10px;
 }
 
@@ -219,6 +218,7 @@ section {
 }
 
 .btn_services {
+    position: relative;
     background-color: var(--green);
     border-radius: 30px;
     color: var(--white);
@@ -284,6 +284,7 @@ i {
 
 .about .about_container .about_text {
     flex: 1;
+    margin-top: 50px;
 }
 
 .about .about_container .about_text h1 {
@@ -293,7 +294,7 @@ i {
 }
 
 .about .about_container .about_text p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 90%;
     margin-bottom: 30px;
     color: var(--black);
@@ -304,9 +305,10 @@ i {
 }
 
 .about .about_container .about_photo img {
-    width: 100%;
+    width: 650px;
     box-shadow: 1px 1px 5px #888;
     border-radius: 70px;
+    margin-left: 130px;
 }
 
 
@@ -334,16 +336,18 @@ i {
 
 .quest .quest_container .quest_item img {
     margin-bottom: 15px;
+    width: 120px;
 }
 
 .quest .quest_container .quest_item h1 {
     margin-bottom: 15px;
     color: var(--black);
+    font-size: 2rem;
 }
 
 .quest .quest_container .quest_item p {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--black);
 }
 
@@ -405,7 +409,7 @@ i {
 }
 
 .ambient .ambient_container .text_ambient h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--black);
     padding: 15px;
 }
@@ -470,8 +474,8 @@ i {
 }
 
 .questions .questions_container .questions_infor .questions_text p {
-    padding: 15px 40px;
-    font-size: 1.1rem;
+    padding: 20px 40px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--black);
     background-color: var(--gray2);
@@ -530,13 +534,13 @@ i {
 
 .form .form_container .form_map {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
 }
 
 .form_body {
-    width: 45%;
+    width: 500px;
     background-color: var(--gray2);
     margin: 0 40px;
     border-radius: 20px;
@@ -552,18 +556,18 @@ i {
 }
 
 .form_body form .form1 {
-    padding: 15px;
-    margin: 10px 30px;
+    padding: 12px;
+    margin: 8px 30px;
     border-radius: 10px;
     outline: none;
     border: 1px solid #ccc;
-    font-size: 1rem
+    font-size: 1.4rem
 }
 
 #btn_form {
     background-color: var(--blue);
     color: var(--white);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 
@@ -590,7 +594,7 @@ i {
 }
 
 .footer .footer_container .footer_contato h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--gray3);
     padding: 15px 0;
 }
@@ -598,10 +602,11 @@ i {
 .footer .footer_container .footer_contato p {
     color: var(--gray3);
     padding: 10px 0;
+    font-size: 1.4rem
 }
 
 .footer .footer_container .footer_empresa h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--gray3);
     padding: 15px 0;
 }
@@ -609,6 +614,7 @@ i {
 .footer .footer_container .footer_empresa p {
     color: var(--gray3);
     padding: 10px 0;
+    font-size: 1.4rem
 }
 
 .footer .footer_container .footer_logos {
@@ -622,11 +628,11 @@ i {
 }
 
 .footer .footer_container .footer_logos .prime {
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .footer .footer_container .footer_logos .upag {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .footer .copy {
@@ -634,4 +640,125 @@ i {
     width: 100%;
     text-align: center;
     color: var(--gray3);
+    font-size: 1.3rem;
+}
+
+
+@media (max-width: 1600px) {
+    .about .about_container .about_text p {
+        font-size: 1.3rem;
+    }
+
+    .about .about_container .about_photo img {
+        width: 500px;
+        margin-left: 0px;
+    }
+
+    .about .about_container .about_text {
+        margin-top: 0px;
+    }
+
+    .showcase_container .text_showcase h1 {
+        font-size: 4.4rem;
+        color: var(--green);
+        line-height: 70px;
+        margin-bottom: 25px;
+    }
+    
+    .showcase_container .text_showcase h1 span {
+        color: var(--white);
+    }
+    
+    .showcase_container .text_showcase p {
+        color: var(--white);
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: var(--green);
+        border-radius: 30px;
+        color: var(--white);
+        text-decoration: none;
+        font-size: 1.4rem
+    }
+
+    .navbar .menu ul a {
+        font-size: 1.1rem;
+    }
+
+    .navbar .logo img {
+        width: 10rem;
+    }
+
+    .ambient .ambient_container .text_ambient h1 {
+        font-size: 3rem;
+    }
+
+    .questions .questions_container .questions_infor .questions_text p {
+        padding: 15px 40px;
+        font-size: 1.1rem;
+    
+    }
+
+    .quest .quest_container .quest_item img {
+        margin-bottom: 15px;
+        width: auto;
+    }
+
+    .quest .quest_container .quest_item h1 {
+        font-size: 1.5rem;
+    }
+    
+    .quest .quest_container .quest_item p {
+        font-size: 1rem;
+    }
+
+    .form_body form .form1 {
+        font-size: 1.2rem
+    }
+
+    #btn_form {
+        font-size: 1.3rem;
+    }
+    
+    .footer .footer_container .footer_contato h1 {
+        font-size: 2rem;
+    }
+    
+    .footer .footer_container .footer_contato p {
+        font-size: 1rem;
+    }
+    
+    .footer .footer_container .footer_empresa h1 {
+        font-size: 2rem;
+    }
+    
+    .footer .footer_container .footer_empresa p {
+        font-size: 1rem;
+    }
+    
+    .footer .footer_container .footer_logos a {
+        color: var(--gray3);
+        font-size: 2rem;
+        padding: 0 8px;
+    }
+    
+    .footer .footer_container .footer_logos .prime {
+        padding: 15px 0;
+    }
+    
+    .footer .footer_container .footer_logos .upag {
+        padding: 10px 0;
+    }
+    
+    .footer .copy {
+        padding-bottom: 50px;
+        width: 100%;
+        text-align: center;
+        color: var(--gray3);
+        font-size: 1rem;
+    }
 }
